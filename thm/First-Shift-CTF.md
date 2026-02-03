@@ -47,3 +47,28 @@ Untuk melakukan pengecekan dapat dilakukan dengan :
 
 #### 6. The file matches one of the YARA rules made by "kevoreilly". What line is present in the rule's "condition" field?
 Ans:  
+YARA rules adalah alat open-source yang digunakan analis keamanan untuk mengidentifikasi, mengklasifikasikan, dan mendeteksi malware atau file mencurigakan berdasarkan pola tekstual atau biner (string, heksadesimal). sedangkan condition di yara rules adalah jantung logikanya. Di sinilah  ditentukan  syarat apa saja yang harus terpenuhi agar sebuah file cocok dengan rule yang  dibuat. singkatnya condition adalah kondisi dimana sebuah file dianggap maware.
+Untuk mengetahui nya dapat dilakukan dengan cara:
+1. Membuka TryDetectThis dan sudah memasukkan hash yang dicurigai di awal (b8e02f2bc0ffb42e8cf28e37a26d8d825f639079bf6d948f8debab6440ee5630)
+2. Melihat pada bagian Detections and Reports.
+   <img width="1856" height="927" alt="image" src="https://github.com/user-attachments/assets/73771a2f-2721-44a6-9cc9-91d2943da63d" />
+4. Masuk pada URL github yang ada. (setelah dibuka akan terlihat yara rules)
+5. Mengambil jawabannya tepat dibawah tulisan condition: dan didapat jawabannya adalah **uint16(0) == 0x5a4d and any of them**
+   <img width="1820" height="637" alt="image" src="https://github.com/user-attachments/assets/0ad19d00-b1c0-4980-b6b1-fff9662efb38" />
+
+#### 7. The file is also mentioned in one of the TI reports. What is the title of the report mentioning this hash?
+Ans: 
+untuk laporan TI yang menyinggung tentang hash (b8e02f2bc0ffb42e8cf28e37a26d8d825f639079bf6d948f8debab6440ee5630) dapat dilihat dengan:
+1.  membuka TryDetectThis dengan memasukkan hash b8e02f2bc0ffb42e8cf28e37a26d8d825f639079bf6d948f8debab6440ee5630
+2.  Memilih report pada bagian Detections and Reports.
+3.  judul dari laporan yang menyinggung hash tersebut dapat dilihat di kolom Report Name yaitu **Behind the Curtain: How Lumma Affiliates Operate**
+
+#### 8. Which team did the author of the malware start collaborating with in early 2024?
+Ans: 
+tim yang melakukan kolaborasi dengan penulis malware tersebut dapat dilihat pada laporan TI sebelumnya yaitu dengan nama Behind the Curtain: How Lumma Affiliates Operate. Untuk memudahkan pencarian dapat menggunakan bilah pencarian dengan mencari menggunakan kata "2024". setelah pencarian dapat ditemukan bahwa tim yang melakukan kolaborasi adalah tim **GhostSocks**  
+
+<img width="1855" height="892" alt="image" src="https://github.com/user-attachments/assets/ef8d1acd-bde3-4cf9-a7d5-de61acc819ac" />
+#### 9. A Mexican-based affiliate related to the malware family also uses other infostealers. Which mentioned infostealer targets Android systems?
+
+
+
