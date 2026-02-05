@@ -78,3 +78,13 @@ Untuk mengetahui infostealer lain yang digunakan dapat diketahui lewat laporan T
 Ans:
 AnonRDP adalah sebuah service yang menyediakan  layanan Virtual Private Server (VPS) dan Remote Desktop Protocol (RDP) yang berfokus pada privasi tinggi, anonimitas, dan bulletproof hosting. Untuk mengetahui Sub-teknik MITRE ATT&CK yang sesuai dapat ditemukan pada laporan TI dengan judul "Behind the Curtain: How Lumma Affiliates Operate". Lalu pelakukan pencarian dengan kata kunci MITRE ATT&CK. Lalu memilih ATT&CK Code yang sesuai dengan AnonRDP yaitu technique Acquire Infrastructure: Virtual Private Server dengan ATT&CK Code **T1583.003**
 
+## TASK 4
+#### 1. Which specific check within the headers explains the bypass of email filters? Answer Example: "CHECK=value"
+Ans: 
+
+
+
+
+
+
+
